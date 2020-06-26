@@ -1,0 +1,12 @@
+geometry_msgs/Twist command
+duration exec_time
+---
+int32 error_code
+int32 SUCCESSFUL = 0
+int32 INVALID_CMD = -1
+int32 FORCE_THRESH = -2
+int32 CANCELLED = -3
+
+string error_string
+---
+# no feedback
