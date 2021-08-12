@@ -13,6 +13,7 @@ add_action_files(
     SetForceTorqueThreshold.action
     SetPosition.action
     Trigger.action
+    JointGroupCommand.action
 )
 
 generate_messages(DEPENDENCIES
