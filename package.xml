@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>Messages for the pr_ros_controllers package</description>
 
-  <maintainer email="cliddick@cmu.edu">Clint Liddick</maintainer>
+  <maintainer email="ekgordon@cs.uw.edu">Ethan K. Gordon</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
@@ -12,5 +12,6 @@
   <depend>actionlib_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
+  <depend>trajectory_msgs</depend>
 
 </package>
