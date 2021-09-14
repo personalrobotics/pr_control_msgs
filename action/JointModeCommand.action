@@ -9,11 +9,15 @@ string[] joint_names
 # The order must be identical.
 int32[] modes
 
-int32 EMERGENCY_STOP = -1
-int32 VELOCITY       = 0
-int32 POSITION       = 1
+int32 BEGIN          = -1
+int32 POSITION       = 0
+int32 VELOCITY       = 1
 int32 EFFORT         = 2
-
+int32 NOMODE         = 3
+int32 EMERGENCY_STOP = 4
+int32 SWITCHING      = 5
+int32 ERROR          = 6
+int32 OTHER          = 3
 ---
 
 bool success
