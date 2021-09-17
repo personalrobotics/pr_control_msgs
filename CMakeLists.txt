@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(pr_control_msgs)
+cmake_minimum_required(VERSION 3.0.0)
+project(pr_control_msgs VERSION 0.0.0)
 
 find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
