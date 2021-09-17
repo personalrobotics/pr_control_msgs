@@ -15,6 +15,7 @@ add_action_files(
     SetPosition.action
     Trigger.action
     JointGroupCommand.action
+    JointModeCommand.action
 )
 
 generate_messages(DEPENDENCIES
