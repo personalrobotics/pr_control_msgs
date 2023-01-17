@@ -6,6 +6,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   std_msgs
   trajectory_msgs
+  moveit_msgs
 )
 
 add_action_files(
@@ -15,6 +16,7 @@ add_action_files(
     SetPosition.action
     Trigger.action
     JointGroupCommand.action
+    TaskCommand.action
     JointModeCommand.action
 )
 
@@ -23,6 +25,7 @@ generate_messages(DEPENDENCIES
   sensor_msgs
   std_msgs
   trajectory_msgs
+  moveit_msgs
 )
 
 catkin_package(
@@ -31,4 +34,5 @@ catkin_package(
     sensor_msgs
     std_msgs
     trajectory_msgs
+    moveit_msgs
 )
